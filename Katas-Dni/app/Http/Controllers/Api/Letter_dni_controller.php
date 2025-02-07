@@ -8,7 +8,7 @@ use App\Models\letter_dni;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
-class LetterController extends Controller
+class LetterDniController extends Controller
 {
     public function index(Request $request)
     {
